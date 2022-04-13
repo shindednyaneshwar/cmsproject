@@ -1,0 +1,166 @@
+.stu-nav-side-menu {
+  overflow: auto;
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: 200;
+  background-color: #2e353d;
+  position: fixed;
+  top: 0px;
+  width: 370px;
+  height: 99%;
+  color: #e1ffff;
+  margin:5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.stu-nav-side-menu .brand {
+  background-color: #23282e;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  margin: 25px;
+  box-shadow: 0 0 10px 0px rgb(208, 206, 206);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.stu-nav-side-menu img {
+  border-radius: 50px;
+  height: 90px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.stu-nav-side-menu .menu-list i {
+  color: var(--blue);
+}
+/* .stu-nav-side-menu .menu-list li:hover {
+  zoom: 1%;;
+} */
+
+.nav-side-menu .btn-logout {
+  background-color: rgb(245, 239, 239);
+  color:black;
+  outline: none;
+  border: none;
+  font-size: larger;
+  font-weight: 600;
+  text-shadow: 0px 5px 2px rgb(98 94 94);
+  padding: 20px 0;
+  width: 100%;
+  margin: 0;
+  border-radius: 0 0 25px 25px ;
+  -webkit-border-radius: 0 0 25px 25px ;
+  -moz-border-radius: 0 0 25px 25px ;
+  -ms-border-radius: 0 0 25px 25px ;
+  -o-border-radius: 0 0 25px 25px ;
+}
+
+
+.nav-side-menu .btn-logout:hover{
+  background-color: rgb(11, 11, 11);
+  color:rgb(177, 174, 174);
+  
+}
+
+.nav-side-menu .btn-logout:active{
+  background-color: rgb(39, 38, 38);
+  color:rgb(255, 255, 255);
+  
+}
+
+
+
+
+
+
+
+.my-notify-scroll{
+  overflow-y: scroll;
+}
+
+.my-notify-scroll::-webkit-scrollbar{
+  width:0px;
+
+}
+
+
+ .my-notify-scroll::-webkit-scrollbar-thumb{
+
+  border-radius: 0px;
+
+ 
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .stu-nav-side-menu {
+    /*position: relative;
+   width: 100%;
+   */
+    margin-bottom: 10px;
+    transform: translateX(-250px);
+    -webkit-transform: translateX(-250px);
+    -moz-transform: translateX(-250px);
+    -ms-transform: translateX(-250px);
+    -o-transform: translateX(-250px);
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+  }
+  
+}
+@media (min-width: 767px) {
+  .stu-nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+}
+
+/* =========================Notification============================================================================================================ */
+
+.menu-notification {
+  background-color: #101720;
+ padding:10px 0;
+  height:30rem;
+  margin:10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.menu-notification .notif {
+
+  padding:10px 20px;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+  transition: 0.3s ease-in;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -ms-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+}
+.menu-notification .notif:hover {
+  background-color: #23282e;
+  font-size:0.9rem;
+  
+}
+.menu-notification .notif a i {
+  zoom: 2;
+}

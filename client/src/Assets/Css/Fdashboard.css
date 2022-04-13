@@ -1,0 +1,46 @@
+
+ /* ========================Button ================================================== */
+  
+    .faculty-allSubject button a{
+      text-decoration: none;
+      color: var(--bs-light);
+    }
+  
+    .faculty-allSubject button i{
+      margin: 1px 5px;
+    }
+  
+  
+    /* ============================Get List================================================================== */
+    .getList{
+      margin-left:20px;
+      font-size: 1.3rem;
+      padding:20px;
+  
+    }
+  
+    .getList select{
+      width:40%;
+      font-size: 1rem;
+      margin-left: 20px;
+    }
+    .getList select option{
+        margin:0 auto;
+        font-size: 1rem;
+        
+      }
+  
+    .getList >div{
+      margin-top:10px ;
+      align-items: center;
+  
+    }
+  
+  
+    @media (max-width: 767px) {
+      .getList select,.getList {
+        font-size:2.5rem;
+      }
+    
+    }
+  

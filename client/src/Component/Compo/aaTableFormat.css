@@ -1,0 +1,61 @@
+
+/* ========================Table====================================================== */
+/* .cms-table{
+    margin:30px 50px;
+    
+    }
+    .cms-table th,.cms-table tr,.cms-table td{
+      font-size: 1rem;
+      border:1px solid var(--bs-gray-400);
+      text-align: center;
+      vertical-align: middle;
+    }
+    
+    .cms-table th{
+      background-color: var(--bs-gray-500);
+    }
+    
+   
+    
+    .cms-table a[id=edit] i{
+        
+        color: var(--bs-green);
+        margin: 0 5px;
+        }
+        
+        .cms-table a[id=upload] i{
+          
+          color: var(--bs-blue);
+          margin: 0 5px;
+          }
+          .cms-table a[id=delete] i{
+         
+            color: var(--bs-red);
+            margin: 0 5px;
+            }
+      
+          .cms-table tr td input[type=checkbox],.cms-table a i{
+            zoom:1.5;               }
+    
+      .cms-table tr td input[type=checkbox]{
+        zoom:2;
+       
+        }
+
+    @media (max-width: 767px) {
+      .cms-table th,.cms-table tr,.cms-table td{
+        font-size: 2rem;
+      }
+      .cms-table{
+        margin:10px 10px;
+        
+        }
+        .cms-table tr td input[type=checkbox]{
+            zoom:1;
+           
+            }
+    }
+  
+   */
+  
+  

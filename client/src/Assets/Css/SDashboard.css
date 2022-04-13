@@ -1,0 +1,161 @@
+.stu-dashboard {
+  background-color: rgb(244, 239, 239);
+  display: flex;
+}
+
+.stu-cms-table {
+  background-color: rgb(187, 145, 246);
+}
+.stu-cms-table tr,
+.stu-cms-table td,
+.stu-cms-table th {
+  border: 2px solid rgb(106, 3, 130);
+  font-weight: 600;
+  text-align: center;
+}
+
+.stu-cms-table th {
+  border: 2px solid rgb(106, 3, 130);
+  font-weight: 800;
+}
+
+
+
+.btn-shadow:active {
+  box-shadow: 0px 5px 10px 0px rgb(18, 41, 196);
+}
+
+.functionality {
+  margin: 0;
+  padding: 5px 10px 0px 10px;
+  /* background-color: rgb(255, 254, 254); */
+}
+/* =============================================================================================================== */
+
+.st-studentInfo {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(243, 241, 244);
+  background: linear-gradient(
+    270deg,
+    rgba(243, 241, 244, 1) 0%,
+    rgba(227, 184, 242, 1) 25%,
+    rgba(197, 135, 244, 1) 47%,
+    rgba(148, 12, 251, 1) 79%,
+    rgba(151, 50, 240, 1) 95%
+  );
+  padding: 20px 30px;
+  width: auto;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.st-studentInfo .info {
+  padding: 3rem 10rem;
+}
+.st-studentInfo i {
+  margin-right: 10px;
+  color: blueviolet;
+}
+
+.st-studentInfo span {
+  font-size: 20px;
+  font-weight: 400;
+}
+.st-studentInfo span:first-child,
+.st-studentInfo .st-pic span {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.st-studentInfo .st-pic span {
+  color: antiquewhite;
+}
+
+.st-studentInfo > div img {
+  border-radius: 10px;
+  width: 100px;
+  height: 120px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.st-studentInfo-Aca {
+  padding: 20px 30px;
+  width: auto;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .st-studentInfo span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .st-studentInfo .info span:first-child,
+  .st-studentInfo .st-pic span {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .st-studentInfo .info {
+    padding: 3rem 2rem;
+  }
+
+  .st-studentInfo {
+    padding: 8px 10px;
+  }
+}
+
+
+
+.graphical-repre{
+ margin:10px auto;
+ padding:20px;
+ background: linear-gradient(
+    270deg,
+    
+    rgba(227, 184, 242, 1) 30%,
+    rgba(197, 135, 244, 1) 60%,
+    rgb(196, 126, 249) 79%,
+    rgb(181, 109, 244) 95%
+  );
+
+
+ border-radius: 10px;
+
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ -ms-border-radius: 10px;
+ -o-border-radius: 10px;
+}
+
+.graphical-repre h2{
+  margin:10px auto;
+ padding :20px;
+ 
+}
+
+.chart{
+
+padding: 0px;
+margin:40px;
+font-weight: 600;
+}
+.chart h3{
+  padding-left:60px;
+
+}
+
